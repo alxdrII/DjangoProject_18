@@ -1,0 +1,10 @@
+# Создание проекта джанго
+django-admin startproject UrbanDjango
+
+# Создание приложения
+python manage.py startapp example1
+
+# Запуск сервера
+python manage.py runserver
+
+#
