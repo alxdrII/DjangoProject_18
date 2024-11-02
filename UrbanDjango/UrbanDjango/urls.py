@@ -28,5 +28,6 @@ urlpatterns = [
     path('platform/', TemplateView.as_view(template_name='fourth_task/platform.html')),
     path('platform/games/', game_products),
     path('platform/cart/', TemplateView.as_view(template_name='fourth_task/cart.html')),
-    path('', sign_up_by_html)
+    path('user1/', sign_up_by_html),
+    path('user2/', sign_up_by_django),
 ]
